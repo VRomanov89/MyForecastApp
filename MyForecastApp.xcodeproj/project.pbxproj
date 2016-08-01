@@ -14,6 +14,7 @@
 		635ECD771D4EFFDF003494F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635ECD751D4EFFDF003494F9 /* LaunchScreen.storyboard */; };
 		635ECD821D4EFFDF003494F9 /* MyForecastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD811D4EFFDF003494F9 /* MyForecastAppTests.swift */; };
 		635ECD8D1D4EFFDF003494F9 /* MyForecastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD8C1D4EFFDF003494F9 /* MyForecastAppUITests.swift */; };
+		635ECD9B1D4FF2B9003494F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD9A1D4FF2B9003494F9 /* Constants.swift */; };
 		B1AF7526242A9AD817C002AF /* Pods_MyForecastApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C365D93667A73460E30E888 /* Pods_MyForecastApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		635ECD881D4EFFDF003494F9 /* MyForecastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyForecastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635ECD8C1D4EFFDF003494F9 /* MyForecastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForecastAppUITests.swift; sourceTree = "<group>"; };
 		635ECD8E1D4EFFDF003494F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635ECD9A1D4FF2B9003494F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9A4BAA323155267D764E3C36 /* Pods-MyForecastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyForecastApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyForecastApp/Pods-MyForecastApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				635ECD731D4EFFDF003494F9 /* Assets.xcassets */,
 				635ECD751D4EFFDF003494F9 /* LaunchScreen.storyboard */,
 				635ECD781D4EFFDF003494F9 /* Info.plist */,
+				635ECD9A1D4FF2B9003494F9 /* Constants.swift */,
 			);
 			path = MyForecastApp;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			files = (
 				635ECD6F1D4EFFDF003494F9 /* WeatherViewController.swift in Sources */,
 				635ECD6D1D4EFFDF003494F9 /* AppDelegate.swift in Sources */,
+				635ECD9B1D4FF2B9003494F9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
