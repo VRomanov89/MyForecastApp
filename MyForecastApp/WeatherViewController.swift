@@ -16,11 +16,17 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var weateherImage: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     
+    let weather = CurrentWeather()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        weather.downloadWeatherDetails {
+            //Setup UI
+        }
+        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
