@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635ECD6D1D4EFFDF003494F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD6C1D4EFFDF003494F9 /* AppDelegate.swift */; };
+		635ECD6F1D4EFFDF003494F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD6E1D4EFFDF003494F9 /* ViewController.swift */; };
+		635ECD721D4EFFDF003494F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635ECD701D4EFFDF003494F9 /* Main.storyboard */; };
+		635ECD741D4EFFDF003494F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635ECD731D4EFFDF003494F9 /* Assets.xcassets */; };
+		635ECD771D4EFFDF003494F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635ECD751D4EFFDF003494F9 /* LaunchScreen.storyboard */; };
+		635ECD821D4EFFDF003494F9 /* MyForecastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD811D4EFFDF003494F9 /* MyForecastAppTests.swift */; };
+		635ECD8D1D4EFFDF003494F9 /* MyForecastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ECD8C1D4EFFDF003494F9 /* MyForecastAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635ECD7E1D4EFFDF003494F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635ECD611D4EFFDF003494F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635ECD681D4EFFDF003494F9;
+			remoteInfo = MyForecastApp;
+		};
+		635ECD891D4EFFDF003494F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635ECD611D4EFFDF003494F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635ECD681D4EFFDF003494F9;
+			remoteInfo = MyForecastApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635ECD691D4EFFDF003494F9 /* MyForecastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyForecastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635ECD6C1D4EFFDF003494F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		635ECD6E1D4EFFDF003494F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		635ECD711D4EFFDF003494F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635ECD731D4EFFDF003494F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635ECD761D4EFFDF003494F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635ECD781D4EFFDF003494F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635ECD7D1D4EFFDF003494F9 /* MyForecastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyForecastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635ECD811D4EFFDF003494F9 /* MyForecastAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForecastAppTests.swift; sourceTree = "<group>"; };
+		635ECD831D4EFFDF003494F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635ECD881D4EFFDF003494F9 /* MyForecastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyForecastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635ECD8C1D4EFFDF003494F9 /* MyForecastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForecastAppUITests.swift; sourceTree = "<group>"; };
+		635ECD8E1D4EFFDF003494F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635ECD661D4EFFDF003494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD7A1D4EFFDF003494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD851D4EFFDF003494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635ECD601D4EFFDF003494F9 = {
+			isa = PBXGroup;
+			children = (
+				635ECD6B1D4EFFDF003494F9 /* MyForecastApp */,
+				635ECD801D4EFFDF003494F9 /* MyForecastAppTests */,
+				635ECD8B1D4EFFDF003494F9 /* MyForecastAppUITests */,
+				635ECD6A1D4EFFDF003494F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635ECD6A1D4EFFDF003494F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635ECD691D4EFFDF003494F9 /* MyForecastApp.app */,
+				635ECD7D1D4EFFDF003494F9 /* MyForecastAppTests.xctest */,
+				635ECD881D4EFFDF003494F9 /* MyForecastAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635ECD6B1D4EFFDF003494F9 /* MyForecastApp */ = {
+			isa = PBXGroup;
+			children = (
+				635ECD6C1D4EFFDF003494F9 /* AppDelegate.swift */,
+				635ECD6E1D4EFFDF003494F9 /* ViewController.swift */,
+				635ECD701D4EFFDF003494F9 /* Main.storyboard */,
+				635ECD731D4EFFDF003494F9 /* Assets.xcassets */,
+				635ECD751D4EFFDF003494F9 /* LaunchScreen.storyboard */,
+				635ECD781D4EFFDF003494F9 /* Info.plist */,
+			);
+			path = MyForecastApp;
+			sourceTree = "<group>";
+		};
+		635ECD801D4EFFDF003494F9 /* MyForecastAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				635ECD811D4EFFDF003494F9 /* MyForecastAppTests.swift */,
+				635ECD831D4EFFDF003494F9 /* Info.plist */,
+			);
+			path = MyForecastAppTests;
+			sourceTree = "<group>";
+		};
+		635ECD8B1D4EFFDF003494F9 /* MyForecastAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				635ECD8C1D4EFFDF003494F9 /* MyForecastAppUITests.swift */,
+				635ECD8E1D4EFFDF003494F9 /* Info.plist */,
+			);
+			path = MyForecastAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635ECD681D4EFFDF003494F9 /* MyForecastApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635ECD911D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastApp" */;
+			buildPhases = (
+				635ECD651D4EFFDF003494F9 /* Sources */,
+				635ECD661D4EFFDF003494F9 /* Frameworks */,
+				635ECD671D4EFFDF003494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyForecastApp;
+			productName = MyForecastApp;
+			productReference = 635ECD691D4EFFDF003494F9 /* MyForecastApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635ECD7C1D4EFFDF003494F9 /* MyForecastAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635ECD941D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastAppTests" */;
+			buildPhases = (
+				635ECD791D4EFFDF003494F9 /* Sources */,
+				635ECD7A1D4EFFDF003494F9 /* Frameworks */,
+				635ECD7B1D4EFFDF003494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635ECD7F1D4EFFDF003494F9 /* PBXTargetDependency */,
+			);
+			name = MyForecastAppTests;
+			productName = MyForecastAppTests;
+			productReference = 635ECD7D1D4EFFDF003494F9 /* MyForecastAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		635ECD871D4EFFDF003494F9 /* MyForecastAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635ECD971D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastAppUITests" */;
+			buildPhases = (
+				635ECD841D4EFFDF003494F9 /* Sources */,
+				635ECD851D4EFFDF003494F9 /* Frameworks */,
+				635ECD861D4EFFDF003494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635ECD8A1D4EFFDF003494F9 /* PBXTargetDependency */,
+			);
+			name = MyForecastAppUITests;
+			productName = MyForecastAppUITests;
+			productReference = 635ECD881D4EFFDF003494F9 /* MyForecastAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635ECD611D4EFFDF003494F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Volodymyr Romanov";
+				TargetAttributes = {
+					635ECD681D4EFFDF003494F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6A69PZY62Z;
+						DevelopmentTeamName = "Volodymyr Romanov";
+						ProvisioningStyle = Automatic;
+					};
+					635ECD7C1D4EFFDF003494F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6A69PZY62Z;
+						DevelopmentTeamName = "Volodymyr Romanov";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 635ECD681D4EFFDF003494F9;
+					};
+					635ECD871D4EFFDF003494F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6A69PZY62Z;
+						DevelopmentTeamName = "Volodymyr Romanov";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 635ECD681D4EFFDF003494F9;
+					};
+				};
+			};
+			buildConfigurationList = 635ECD641D4EFFDF003494F9 /* Build configuration list for PBXProject "MyForecastApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635ECD601D4EFFDF003494F9;
+			productRefGroup = 635ECD6A1D4EFFDF003494F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635ECD681D4EFFDF003494F9 /* MyForecastApp */,
+				635ECD7C1D4EFFDF003494F9 /* MyForecastAppTests */,
+				635ECD871D4EFFDF003494F9 /* MyForecastAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635ECD671D4EFFDF003494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635ECD771D4EFFDF003494F9 /* LaunchScreen.storyboard in Resources */,
+				635ECD741D4EFFDF003494F9 /* Assets.xcassets in Resources */,
+				635ECD721D4EFFDF003494F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD7B1D4EFFDF003494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD861D4EFFDF003494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635ECD651D4EFFDF003494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635ECD6F1D4EFFDF003494F9 /* ViewController.swift in Sources */,
+				635ECD6D1D4EFFDF003494F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD791D4EFFDF003494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635ECD821D4EFFDF003494F9 /* MyForecastAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635ECD841D4EFFDF003494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635ECD8D1D4EFFDF003494F9 /* MyForecastAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635ECD7F1D4EFFDF003494F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635ECD681D4EFFDF003494F9 /* MyForecastApp */;
+			targetProxy = 635ECD7E1D4EFFDF003494F9 /* PBXContainerItemProxy */;
+		};
+		635ECD8A1D4EFFDF003494F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635ECD681D4EFFDF003494F9 /* MyForecastApp */;
+			targetProxy = 635ECD891D4EFFDF003494F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635ECD701D4EFFDF003494F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635ECD711D4EFFDF003494F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635ECD751D4EFFDF003494F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635ECD761D4EFFDF003494F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635ECD8F1D4EFFDF003494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635ECD901D4EFFDF003494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635ECD921D4EFFDF003494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyForecastApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		635ECD931D4EFFDF003494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyForecastApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		635ECD951D4EFFDF003494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyForecastAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyForecastApp.app/MyForecastApp";
+			};
+			name = Debug;
+		};
+		635ECD961D4EFFDF003494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyForecastAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyForecastApp.app/MyForecastApp";
+			};
+			name = Release;
+		};
+		635ECD981D4EFFDF003494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyForecastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyForecastApp;
+			};
+			name = Debug;
+		};
+		635ECD991D4EFFDF003494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyForecastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vromanov.MyForecastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyForecastApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635ECD641D4EFFDF003494F9 /* Build configuration list for PBXProject "MyForecastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635ECD8F1D4EFFDF003494F9 /* Debug */,
+				635ECD901D4EFFDF003494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635ECD911D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635ECD921D4EFFDF003494F9 /* Debug */,
+				635ECD931D4EFFDF003494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		635ECD941D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635ECD951D4EFFDF003494F9 /* Debug */,
+				635ECD961D4EFFDF003494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		635ECD971D4EFFDF003494F9 /* Build configuration list for PBXNativeTarget "MyForecastAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635ECD981D4EFFDF003494F9 /* Debug */,
+				635ECD991D4EFFDF003494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635ECD611D4EFFDF003494F9 /* Project object */;
+}
