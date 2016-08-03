@@ -25,6 +25,7 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         weather.downloadWeatherDetails {
             //Setup UI
+            updateMainUI()
         }
         
     }
@@ -40,6 +41,10 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherCell", for: indexPath)
         return cell
+    }
+    
+    func updateMainUI() {
+        
     }
 }
 
