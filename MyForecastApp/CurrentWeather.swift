@@ -70,7 +70,7 @@ class CurrentWeather {
                     }
                 }
             }
+            completed()
         }
-        completed()
     }
 }

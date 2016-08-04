@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var dateLabel: UILabel!
@@ -16,18 +17,42 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     @IBOutlet weak var weateherImage: UIImageView!
     @IBOutlet weak var tableView: UITableView!
     
-    let weather = CurrentWeather()
-    
+    var weather: CurrentWeather!
+    var forecast: Forecast!
+    var forecasts = [Forecast]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        weather = CurrentWeather()
+        //forecast = Forecast()
+        
         weather.downloadWeatherDetails {
-            //Setup UI
-            updateMainUI()
+            self.downloadForecastData() {
+               //Setup UI
+                self.updateMainUI()
+            }
         }
         
+    }
+    
+    func downloadForecastData(completed: DownloadComplete) {
+        let forecastURL = URL(string: FORECAST_URL)!
+        Alamofire.request(.GET, forecastURL).responseJSON { response in
+            let result = response.result
+            if let dict = result.value as? Dictionary<String, AnyObject> {
+                //print(dict)
+                if let list = dict["list"] as? [Dictionary<String, AnyObject>] {
+                    for obj in list {
+                        let forecast = Forecast(weatherDict: obj)
+                        self.forecasts.append(forecast)
+                        //print(obj)
+                    }
+                }
+            }
+            completed()
+        }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -44,7 +69,11 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func updateMainUI() {
-        
+        dateLabel.text = weather.date
+        temperatureLabel.text = "\(weather.currentTemperature)"
+        locationLabel.text = weather.cityName
+        weatherLabel.text = weather.weatherType
+        weateherImage.image = UIImage(named: weather.weatherType)
     }
 }
 
