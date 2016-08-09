@@ -42,6 +42,9 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="mGm-lF-IJY" firstAttribute="top" secondItem="JGA-0f-u3B" secondAttribute="top" constant="10" id="Tgw-Ns-jMj"/>
+                                                </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="8Xh-qT-fiE">
                                                 <frame key="frameInset" minX="239" width="120" height="154"/>
@@ -76,7 +79,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fgb-Zt-MSF">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WeatherCell" rowHeight="80" id="Ii2-J1-Vvg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WeatherCell" rowHeight="80" id="Ii2-J1-Vvg" customClass="WeatherTableViewCell" customModule="MyForecastApp" customModuleProvider="target">
                                         <frame key="frameInset" minY="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ii2-J1-Vvg" id="fAy-jh-dsG">
@@ -84,26 +87,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="mXi-fm-YkF">
-                                                    <frame key="frameInset" minX="8" minY="8" width="359" height="225"/>
+                                                    <frame key="frameInset" minX="8" minY="8" width="359" height="231"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-Nm-Gt9">
-                                                            <frame key="frameInset" width="64" height="225"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-Nm-Gt9">
+                                                            <frame key="frameInset" width="64" height="231"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="64" id="eaD-xl-42C"/>
                                                                 <constraint firstAttribute="width" constant="64" id="m6H-9G-J9n"/>
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="8xd-Db-wDF">
-                                                            <frame key="frameInset" minX="76" width="211" height="225"/>
+                                                            <frame key="frameInset" minX="76" width="211" height="231"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="PmZ-Dp-8Am">
-                                                                    <frame key="frameInset" width="101" height="204"/>
+                                                                    <frame key="frameInset" width="101" height="210"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cloudy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LLQ-6R-vgV">
-                                                                    <frame key="frameInset" minY="204" width="54" height="21"/>
+                                                                    <frame key="frameInset" minY="210" width="54" height="21"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -111,16 +114,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="gXy-Lo-yk7">
-                                                            <frame key="frameInset" minX="299" width="61" height="225"/>
+                                                            <frame key="frameInset" minX="299" width="61" height="231"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="76.5 °F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aaS-t4-I7c">
-                                                                    <frame key="frameInset" width="61" height="204"/>
+                                                                    <frame key="frameInset" width="61" height="210"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="65.4 °F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KYn-sq-zns">
-                                                                    <frame key="frameInset" minX="5" minY="204" width="56" height="21"/>
+                                                                    <frame key="frameInset" minX="5" minY="210" width="56" height="21"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -139,6 +142,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="dayLabel" destination="PmZ-Dp-8Am" id="uf4-YG-Ucs"/>
+                                            <outlet property="highTempLabel" destination="aaS-t4-I7c" id="zoG-iK-KSm"/>
+                                            <outlet property="lowTempLabel" destination="KYn-sq-zns" id="W6e-mH-mYT"/>
+                                            <outlet property="weatherImage" destination="HFF-Nm-Gt9" id="UJo-s3-oPR"/>
+                                            <outlet property="weatherLabel" destination="LLQ-6R-vgV" id="ofO-K7-Qcg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
